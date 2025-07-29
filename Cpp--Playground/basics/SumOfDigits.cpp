@@ -14,4 +14,4 @@ int main(){
     }
     cout<<"the sum of the digits is: "<<sum;
     return 0;
-}
+} 
