@@ -84,6 +84,7 @@ int main(){
     cout << "First Occurrence: " << result1 << endl;
     int result2 = occurence.lastOccurence(key);
     cout << "last Occurrence: " << result2 << endl;
+    cout<<"all occurences: "<<(occurence.lastOccurence(key)-occurence.firstOccurence(key)+1);
     
 
     return 0;
