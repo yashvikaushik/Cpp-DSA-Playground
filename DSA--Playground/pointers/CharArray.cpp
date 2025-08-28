@@ -7,6 +7,7 @@ int main(){
     cout<<ptr<<endl;//gives the whole array content
     cout<<ch<<endl;//gives the whole array content
     cout<<ch[0]<<endl;//gives value at index 0
+    cout<<&ch[0]<<endl;
 
     char temp='z';
     char *p=&temp;
