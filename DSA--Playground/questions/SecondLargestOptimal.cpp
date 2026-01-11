@@ -16,6 +16,9 @@ public:
                 slargest=largest;
                 largest=nums[i];
             }
+            else if(nums[i]<largest && nums[i]>slargest){
+                slargest=nums[i];
+            }
         }
         
        
